@@ -434,7 +434,7 @@ void MjpcApp::Start() {
     }
 }
 
-mj::Simulate* MjpcApp::GetSim() {
+mj::Simulate* MjpcApp::Sim() {
     return sim.get();
 }
 

@@ -61,7 +61,8 @@ class MJSIMULATEAPI Simulate {
         void Render();
 
         // one-off preparation before starting to render (e.g., memory allocation)
-
+         void InitializeRenderLoop();
+        
         // loop to render UI (must be called from main thread because of MacOS)
         void RenderLoop();
 
