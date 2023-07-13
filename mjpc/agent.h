@@ -62,6 +62,7 @@ class Agent {
         void Allocate();
 
         // reset data, settings, planners, states
+        void Reset();
 
         // single planner iteration
         void PlanIteration(ThreadPool* pool);
